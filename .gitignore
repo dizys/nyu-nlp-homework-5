@@ -1,0 +1,19 @@
+# junk
+.DS_Store
+.idea/
+
+# python
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# dotenv
+.env
+
+*.log
+output.txt
+GRADE.txt
+*_out.txt
+/submission
+*.pkl
+zz2960-HW5*.zip
