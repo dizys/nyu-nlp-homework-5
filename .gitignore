@@ -7,6 +7,9 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 
+# java
+*.class
+
 # dotenv
 .env
 
