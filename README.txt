@@ -1,4 +1,4 @@
-NYU NLP Homework 5: Feature selection for a Noun Group tagger
+NYU NLP Homework 5: Feature selection for Maxent Group tagger
     by Ziyang Zeng (zz2960)
     Spring 2022
 

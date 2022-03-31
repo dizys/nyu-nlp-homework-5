@@ -17,6 +17,7 @@ __pycache__/
 output.txt
 GRADE.txt
 *_out.txt
+/out/
 /submission
 *.pkl
 zz2960-HW5*.zip
