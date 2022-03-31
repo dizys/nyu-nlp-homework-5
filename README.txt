@@ -10,6 +10,7 @@ Install dependencies:
 
 Features selected:
     - word stem
+    - the position (percentage) of the word in the sentence
     - POS tag
     - whether capitalized
     - previous BIO tag
@@ -24,12 +25,12 @@ Features selected:
 
 
 Score on the development set:
-    31628 out of 32853 tags correct
-        accuracy: 96.27
+    31642 out of 32853 tags correct
+    accuracy: 96.31
     8378 groups in key
-    8609 groups in response
-    7709 correct groups
-        precision: 89.55
-        recall:    92.01
-        F1:        90.76
+    8593 groups in response
+    7714 correct groups
+    precision: 89.77
+    recall:    92.07
+    F1:        90.91
 

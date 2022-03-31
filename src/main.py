@@ -58,6 +58,7 @@ class WordFeatures(TypedDict):
     word: str
     stem: str
     pos: str
+    position: float
     previous_tag: Union[str, None]
     previous_pos: Union[str, None]
     previous_word: Union[str, None]
@@ -83,6 +84,7 @@ def get_word_features(sentence: List[Word]) -> List[WordFeatures]:
     sentence_len = len(sentence)
     for i in range(sentence_len):
         word = sentence[i]
+        position = i / sentence_len
         word_str = word["word"]
         word_stem = stemmer.stem(word_str)
         word_pos = word["pos"]
@@ -127,6 +129,7 @@ def get_word_features(sentence: List[Word]) -> List[WordFeatures]:
             next_2_word_pos = None
             next_2_word_stem = None
         features = WordFeatures(word=word_str, stem=word_stem, pos=word_pos,
+                                position=position,
                                 previous_tag=previous_tag,
                                 previous_pos=previous_word_pos,
                                 previous_word=previous_word_str,
